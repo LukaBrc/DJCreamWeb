@@ -1,0 +1,16 @@
+#miBackground{
+       background-color: black;
+       height: 100vh;
+}
+#custHeader{
+       background-color: darkslategrey;
+       height: 12vh;
+}
+#custSec{
+       background-color: white;
+       height: 82vh;
+}
+#custFoot{
+       background-color: darkslategrey;
+       height: 6vh;
+}
