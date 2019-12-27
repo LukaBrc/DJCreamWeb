@@ -1,6 +1,6 @@
 #miBackground{
        background-color: rgb(12, 12, 12);
-       height: 100vh;
+       height: 100%;
 }
 #custHeader{
        padding-top: 20px;
@@ -10,12 +10,31 @@
        margin: 0 auto;
        color: white;
 }
+#navMenu{
+       text-align: center;
+}
+.custMenuText a{
+       color: white;
+       text-decoration: none;
+}
 .custMenuText{
        color: white;
        font-size: 1.5vw;
        letter-spacing: .8px;
 }
-.custMenuText:hover{
+.custMenuText a:hover{
        text-decoration: underline;
        cursor: pointer;
+}
+#myCarousel{
+       margin-top: 40px;
+       margin-bottom: 40px;
+       width: 45vw;
+}
+#custFooter{
+       background-color: gray;
+       text-align: center;
+       font-size: 3vw;
+       margin: 0 auto;
+       color: white;
 }
