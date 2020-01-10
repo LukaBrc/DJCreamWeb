@@ -5,7 +5,7 @@
        padding: 0;
 }
 #content-wrap {
-       padding-bottom: 3rem;
+       padding-bottom: 70px;
 }
 #custHeader{
        padding-top: 25px;
@@ -49,12 +49,19 @@
 }
 .custMenuText{
        color: white;
-       font-size: 1.7vw;
+       font-size: 1.5vw;
        letter-spacing: .8px;
 }
 .custMenuText a:hover{
        text-decoration: underline;
        cursor: pointer;
+}
+.miTitle{
+       color: white;
+       font-size: 5vh;
+       font-family: 'Julius Sans One', sans-serif;
+       font-weight: bold;
+       padding: 15px 0 15px 0;
 }
 #Home{
        padding-bottom: 25px;
@@ -64,19 +71,17 @@
 }
 #About p{
        color: white;
-       font-size: 1.7vw;
+       font-size: 1.5vw;
+       padding-left: 21px;
 }
 #Mixes iframe{
-       padding-bottom: 25px;
+       padding: 0 25px 25px 25px;
 }
 #custFooter{
        position: absolute;
        bottom: 0;
        width: 100%;
-       height: 3rem;  
-       background-color: gray;
-       margin: 0 auto;
-       color: white;
+       height: 70px;
 }
 .crop {
        max-height: 600px;
