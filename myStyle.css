@@ -11,7 +11,7 @@
        padding-top: 20px;
        padding-bottom: 20px;
        text-align: center;
-       font-size: 3vw;
+       font-size: 5vw;
        margin: 0 auto;
        color: white;
 }
@@ -25,7 +25,7 @@
 }
 .custMenuText{
        color: white;
-       font-size: 1.5vw;
+       font-size: 1.7vw;
        letter-spacing: .8px;
 }
 .custMenuText a:hover{
@@ -48,4 +48,8 @@
 .crop img {
        height: 100%;
        width: auto;
+}
+#About p{
+       color: white;
+       font-size: 1.7vw;
 }
