@@ -8,16 +8,40 @@
        padding-bottom: 3rem;
 }
 #custHeader{
-       padding-top: 20px;
-       padding-bottom: 20px;
+       padding-top: 25px;
+       padding-bottom: 25px;
        text-align: center;
        font-size: 5vw;
        margin: 0 auto;
        color: white;
 }
+#custHeader .djlogo{
+       padding: 12px
+}
+#myBtn{
+       display: none;
+       position: fixed;
+       bottom: 20px;
+       right: 30px;
+       z-index: 99;
+       border: none;
+       outline: none;
+       background-color: red;
+       color: white;
+       cursor: pointer;
+       padding: 15px;
+       border-radius: 15px;
+       font-size: 25px;
+       height: 60px;
+} 
+#myBtn:hover{
+       background-color: #555;
+}
 #navMenu{
+       font-family: 'Julius Sans One', sans-serif;
+       font-weight: bold;
        text-align: center;
-       padding: 0 8px 35px;
+       padding: 0 8px 30px;
 }
 .custMenuText a{
        color: white;
@@ -31,6 +55,19 @@
 .custMenuText a:hover{
        text-decoration: underline;
        cursor: pointer;
+}
+#Home{
+       padding-bottom: 25px;
+}
+#About{
+       padding-bottom: 25px;
+}
+#About p{
+       color: white;
+       font-size: 1.7vw;
+}
+#Mixes iframe{
+       padding-bottom: 25px;
 }
 #custFooter{
        position: absolute;
@@ -48,8 +85,4 @@
 .crop img {
        height: 100%;
        width: auto;
-}
-#About p{
-       color: white;
-       font-size: 1.7vw;
 }
