@@ -11,7 +11,6 @@
        padding-top: 25px;
        padding-bottom: 25px;
        text-align: center;
-       font-size: 5vw;
        margin: 0 auto;
        color: white;
 }
@@ -49,7 +48,7 @@
 }
 .custMenuText{
        color: white;
-       font-size: 1.5vw;
+       font-size: 2rem;
        letter-spacing: .8px;
 }
 .custMenuText a:hover{
@@ -71,7 +70,7 @@
 }
 #About p{
        color: white;
-       font-size: 1.5vw;
+       font-size: 1.5rem;
        padding-left: 21px;
 }
 #Mixes iframe{
@@ -100,6 +99,9 @@
 .left-buffer { 
        margin-left:30px; 
 }
+.bottom-buffer { 
+       margin-bottom:30px; 
+}
 #Contact{
        padding-bottom: 25px;
 }
@@ -110,4 +112,12 @@
 #custForm label {
        font-family: 'Julius Sans One', sans-serif;
        font-weight: bold;
+}
+h2{
+       color: white;
+       font-family: 'Julius Sans One', sans-serif;
+       font-weight: bold;
+}
+#Releases iframe{
+       margin-top:30px; 
 }
